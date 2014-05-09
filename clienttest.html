@@ -1,0 +1,40 @@
+<html>
+<title>Chat</title>
+<head>
+<link rel="stylesheet" type="text/css" href="client.css">
+<script src="http://cdn.pubnub.com/pubnub.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="notifier.js"></script>
+</head>
+
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='Mainpage.html'><span>Home</span></a></li>
+   <li><a href='servertest.html'><span>Broadcast</span></a></li>
+   <li><a href='clienttest.html'><span>Chat</span></a></li>
+   <li class='last'><a href='#'><span>About</span></a></li>
+</ul>
+</div>
+
+<body>
+	<p id ="head"> Talk your hearts out </p>
+	<p id = "content"> If you are looking to help out with an issue close to your heart and meet people who want to make a 
+	difference in the society, then you are at the right place. This forum will help you connect with people also looking to
+ 	share their time and experiences while making the world a better place to live in. So start chatting, and discover new issues
+ 	to support.
+ 	</br>
+ 	<pre id = "content">Also, if you hear about some issue that requires urgent attention and mobilization of volunteers, look no further. Click on the broadcast link, and there's no looking
+back.
+ 	</pre>
+ 	</br></br></br>
+ 	
+    <button id="buttonClient" onclick="Notifier.success('Your message has been sent')">Reply</button>
+    <input type="text" id="clientText" placeholder="Type here"><br /></input>
+    <div id="chat"></div>
+    
+    <script src ="client.js"></script>
+    
+</body>
+</html>
+
+
