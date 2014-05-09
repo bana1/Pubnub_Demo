@@ -14,7 +14,7 @@
 }
 #cssmenu ul {
   zoom: 1;
-  background: #a7bc7a url(pattern.png) top left repeat;
+
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -50,9 +50,7 @@
   float: left;
   border-right: 1px solid #b2c58b;
 }
-#cssmenu li:hover {
-  background: #9cb369 url(pattern.png) top left repeat;
-}
+
 #cssmenu li:first-child {
   border-left: none;
   -webkit-border-radius: 4px 0 0 4px;
@@ -73,7 +71,7 @@
         #clientText
         {
             text-align: left;
-            color: balck;
+            color: black;
             line-height: 200%;
             height : 100px;
             width:300px;
